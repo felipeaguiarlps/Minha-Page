@@ -2,14 +2,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');  
 
+:root{
+    --cor--primaria: #232D3F;
+    --cor--secundaria: #B6BBC4;
+    --cor--terciaria: #F0ECE5;
+    --cor--hover: #0F0F0F;
+
+    --font--primaria: "PT Serif", serif;
+}
+
 body{
-    background-color: black;
+    background-color: var(--cor--primaria);
     box-sizing: border-box;
-    color: white;
+    color: var(--cor--secundaria);
 }
 
 .cabecalho{
-    padding: 2% 0% 0% 15%;
+    padding: 2% 0% 5% 15%;
 }
 
 .cabecalho__menu{
@@ -22,8 +31,46 @@ body{
     font-family: "PT Serif", serif;
     font-size: 24px;
     font-weight: 600;
-    color: #22D4FD;
+    color: var(--cor--terciaria);
     text-decoration: none;
 }
 
+.principal__conteudo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 2% 0% 5% 15%;
+    max-width: 80%;
+}
 
+
+.principal__conteudo__h{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font--primaria);
+    color: var(--cor--terciaria);
+    font-size: 24px;
+    text-align: justify;
+    font-weight: 600;
+    padding: 0px 0px 20px 0px;
+}
+
+.principal__conteudo__paragrafo{
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font--primaria);
+    font-size: 16px;
+    color: var(--cor--terciaria);
+    line-height: 23px;
+}
+
+.rodape{
+    background-color: var(--cor--terciaria);
+    text-align: center;
+    font-family: var(--font--primaria);
+    padding: 24px;
+    font-size: 24px;
+    font-weight: 400;
+    color: var(--cor--primaria);
+}
