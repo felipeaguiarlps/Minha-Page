@@ -29,7 +29,7 @@ body{
 .cabecalho__menu__link{
     text-decoration: none;
     font-family: "PT Serif", serif;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor--terciaria);
     text-decoration: none;
@@ -50,7 +50,7 @@ body{
     flex-direction: column;
     font-family: var(--font--primaria);
     color: var(--cor--terciaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     text-align: justify;
     font-weight: 600;
     padding: 0px 0px 20px 0px;
@@ -60,7 +60,7 @@ body{
     display: flex;
     flex-direction: column;
     font-family: var(--font--primaria);
-    font-size: 16px;
+    font-size: 1rem;
     color: var(--cor--terciaria);
     line-height: 23px;
 }
@@ -70,7 +70,7 @@ body{
     text-align: center;
     font-family: var(--font--primaria);
     padding: 24px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
     color: var(--cor--primaria);
 }
