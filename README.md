@@ -1,14 +1,28 @@
 # Minha-Page
-Bem vindo ao meu projeto de portfólio.
-Segue o link para acessar o site [Felipe Aguiar](https://minha-page.vercel.app/)
-## Ferramentas utilizadas:
 
-* HTML
+## 📖 Sobre o Projeto
+A **Minha-Page** é um projeto web desenvolvido para apresentar uma página pessoal ou profissional de forma elegante e responsiva. Contendo meu curriculum, e projetos já realizados.
 
-* CSS
+## 🚀 Tecnologias Utilizadas
+- **HTML5**: Estruturação do conteúdo.
+- **CSS3**: Estilização e layout.
+- **JavaScript**: Funcionalidades interativas.
 
-* Flex-box
-## Feito por:
+## 📂 Estrutura do Projeto
+```
+Minha-Page/
+├─ assets/        # Imagens e recursos estáticos
+├─ css/           # Estilos em CSS
+├─ js/            # Scripts em JavaScript
+├─ index.html     # Página principal
+└─ README.md      # Documentação do projeto
+```
 
-### Felipe Aguiar Lopes
-OBS: Segue em construção.
+## 🌟 Funcionalidades
+- Exibição de informações pessoais/profissionais.
+- Layout responsivo e adaptável a diferentes dispositivos.
+- Efeitos visuais e interatividade com JavaScript.
+
+---
+Feito por [Felipe Aguiar](https://github.com/felipeaguiarlps)
+
